@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Vivo t2 pro max",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "45000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "2",
+      "name": "Apple",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "3",
+      "name": "Samsung",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "4",
+      "name": "Micromax",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "5",
+      "name": "vodaphone",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "6",
+      "name": "redme",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "7",
+      "name": "iqoo",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "8",
+      "name": "Vivo t2 pro",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "9",
+      "name": "Vivo t2 pro",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "10 ",
+      "name": "Vivo t2 pro",
+      "image": "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1695352069499/0b19ef2156bbe072eb912066d6c944ab.png",
+      "price": "25000",
+      "description": "The vivo T2 Pro is a compelling option for those seeking a stylish, premium smartphone at an attractive price point. It delivers consistent performance, surprising endurance, and decent charging speeds."
+    },
+    {
+      "id": "f3d4",
+      "name": "Airpodes",
+      "image": "https://techcrunch.com/wp-content/uploads/2022/09/CMC_3690.jpg",
+      "price": "2000",
+      "description": "Airpodes is a noise free thing."
+    },
+    {
+      "id": "9aba",
+      "name": "Watch",
+      "image": "https://i5.walmartimages.com/asr/e1ae90b2-98da-443b-888c-a71228c5234e.eb10d07052b374f38aa17166043f5a7a.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff",
+      "price": "4000",
+      "description": "A smartwatch is a wearable computer in the form of a watch; modern smartwatches provide a local touchscreen interface for daily use, while an associated smartphone app provides management and telemetry, such as long-term biomonitoring. "
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<div class="container custom-container-2 mt-5">
+    <div class="n0-data text-center" *ngIf="Product.length==0">
+        <p>There is no Products added yet!</p>
+        <button class="btn btn-outline-primary" routerLink="/create-employee">Add Product</button>
+    </div>
+
+    <div *ngIf="Product.length!==0">
+        <h3 class="mb-3 text-center">Products List</h3>
+        <div class="container">
+            <form [formGroup]="searchForm">
+                <input type="text" formControlName="searchText" (keyup)="onSearchTextChange($event)"
+                    placeholder="Search here  ......" class=" search form-control">&nbsp; &nbsp;
+                    <button class="create btn btn-outline-primary" routerLink="/create-product">Create Products</button>
+            </form>
+        </div>
+        <br>
+       
+        <div class="col-md-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Product Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of Product">
+                        <td><img src="{{product.image}}" alt="image...."></td>
+                        <td>{{product.id}}</td>
+                        <td>{{product.name}}</td>
+                        <td>{{product.price}}</td>
+                        <td>{{product.description}}</td>
+                        <td>
+                            <span class="edit btn btn-sm btn-outline-primary me-2"
+                                routerLink="/edit-product/{{product.id}}">Edit</span>
+
+                            <span class="delete edit btn btn-sm btn-outline-danger"
+                                (click)="deleteProduct(product.id)">Delete</span>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
