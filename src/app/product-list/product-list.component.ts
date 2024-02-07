@@ -43,7 +43,7 @@ onSearchTextChange(event:any){
     console.log('hghh');
     
     if(this.searchForm.controls['searchText'].value.length > 2){
-      const searchedBooks = this.Product?.filter((b:any) => b.name.toLowerCase().startsWith(event.target.value))
+      const searchedBooks = this.Product?.filter((b:any) => b.name.toLowerCase().includes(event.target.value))
       console.log('searchedBooks', searchedBooks);
       this.Product = searchedBooks;
     }

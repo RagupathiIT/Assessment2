@@ -19,18 +19,20 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th scope="col">Product Id</th>
+                        
+                        <th scope="col">Id</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Image</th>
+                        <th scope="col">Product Image</th>
                         <th scope="col">Price</th>
                         <th scope="col">Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr *ngFor="let product of Product">
-                        <td><img src="{{product.image}}" alt="image...."></td>
+                        
                         <td>{{product.id}}</td>
                         <td>{{product.name}}</td>
+                        <td><img src="{{product.image}}" alt="image...."></td>
                         <td>{{product.price}}</td>
                         <td>{{product.description}}</td>
                         <td>
